@@ -1,6 +1,6 @@
 Default Stability measurement configurations
 ==================================
-SUPPLY%KE2410
+SUPPLY%Keithley 2410
 - default supply
 VOLTAGE%-700
 - bias voltage of stability scan, TDR: -700
@@ -18,3 +18,5 @@ RAMPDOWNDELAY%1
 - ramp down interval in seconds, TDR: 1
 TREADOUT%Arduino
 - Arduino or not?
+IFLUCTUATIONS%3
+- Maximum current fluctuation in % allowed in specs
