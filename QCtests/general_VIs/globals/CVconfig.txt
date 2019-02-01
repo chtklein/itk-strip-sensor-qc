@@ -1,8 +1,8 @@
 Default CV measurement configurations
 ==================================
-SUPPLY%KE2410
+SUPPLY%Keithley 2410
 - default supply
-LCR%WK6440B
+LCR%WayneKerr 6440B
 - default LCR meter
 INITIALV%0
 - initial bias voltage of CV scan, TDR: 0
@@ -18,7 +18,7 @@ RCCONFIG%serial
 - RC configuration of LCR meter for CV scan, serial
 ACAMPLITUDE%0.1
 - default AC amplitude in volts, 100mV
-NUMBEROFSTEPS%
+NUMBEROFSTEPS%71
 - number of steps per CV scan
 RAMPDOWNSTEPS%10
 - ramp down steps in Volts, TDR: 10
@@ -26,3 +26,5 @@ RAMPDOWNDELAY%1
 - ramp down interval in seconds, TDR: 1
 TREADOUT%Arduino
 - Arduino or not?
+VDEPLETION%-300
+- Maximum depletion voltage allowed in specs in volts
