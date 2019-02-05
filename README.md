@@ -18,7 +18,7 @@ However, do not alter crucial aspects of the measurement procedure during sensor
 How to include new instruments:
 - open "InstrControl.lvproj" from the "InstrControl" folder
 - create a new class (New -> Other Files -> Class) or copy an existing one (preferably of the same type, e.g. supply, as new instrument) and then add to the project (Right-click on existing class -> Save As... -> check "add copy to InstrControl.lvproj")
-- set inheritance appropriatly (Right-click on new class -> Properties -> Inheritance)
+- set inheritance appropriately (Right-click on new class -> Properties -> Inheritance)
 - add/change VIs of new class and create global with instrument commands
 - add instrument settings in global variable "InstrControl.lvclass:InstrumentSetup.vi"
 - add case of new instrument in "InstrControl.lvclass:InstrumentSelection.vi"
