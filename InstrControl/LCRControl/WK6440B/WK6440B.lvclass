@@ -34,7 +34,7 @@
 		<Property Name="NI.ClassItem.State" Type="Int">1342972432</Property>
 	</Item>
 	<Item Name="LCR_Readout.vi" Type="VI" URL="../LCR_Readout.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;/!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!'5!+!"*3:8.J=X2B&lt;G.F)'FO)%V0;'U!!"&gt;!#A!21W&amp;Q97.J&gt;'&amp;O9W5A;7YA=%9!*E"Q!"Y!!"%06UMW.$1Q1CZM&gt;G.M98.T!!N83T9U.$"#)'^V&gt;!!%!!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!61!-!$U:S:8&amp;V:7ZD?3"J&lt;C")?A!G1(!!(A!!%1^83T9U.$"#,GRW9WRB=X-!#F&gt;,.D1U-%)A;7Y!!&amp;1!]!!-!!-!"!!&amp;!!9!"Q!(!!=!"Q!)!!=!#1!+!Q!!?!!!$1A!!!E!!!!*!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!"!!!!#3!!!!!!%!#Q!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;-!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!&amp;U!+!"&amp;3:8.J=X2B&lt;G.F)'FO)%^I&lt;1!81!I!%5.B='&amp;D;82B&lt;G.F)'FO)("'!#:!=!!?!!!2$V&gt;,.D1U-%)O&lt;(:D&lt;'&amp;T=Q!,6UMW.$1Q1C"P&gt;81!"!!!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!&amp;5!$!!^'=G6R&gt;76O9XEA;7YA3(I!*E"Q!"Y!!"%06UMW.$1Q1CZM&gt;G.M98.T!!J83T9U.$"#)'FO!!"5!0!!$!!$!!1!"1!'!!=!"Q!(!!=!#!!(!!E!#A-!!(A!!!U)!!!*!!!!#1!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!1!!!!EA!!!!!"!!M!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
