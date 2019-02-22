@@ -1,1 +1,4 @@
 /other
+*.zip
+/probeplan-generator
+/probeplan-rotation-to-align
