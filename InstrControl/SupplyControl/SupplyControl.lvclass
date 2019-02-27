@@ -164,13 +164,13 @@
 		<Property Name="NI.ClassItem.State" Type="Int">1342714384</Property>
 	</Item>
 	<Item Name="SupplyRamp.vi" Type="VI" URL="../SupplyRamp.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'2!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!,%"Q!"Y!!"=65X6Q='RZ1W^O&gt;(*P&lt;#ZM&gt;G.M98.T!!J4&gt;8"Q&lt;(EA4V65!!!91#%41W^N='RJ97ZD:3"F?'.F:72F:!!61!I!$U.V=H*F&lt;H1A6G^M&gt;'&amp;H:1!%!!!!&amp;E"1!!-!!!!"!!)):8*S&lt;X)A;7Y!!"&gt;!#A!25G6R&gt;76T&gt;'6E)&amp;:P&lt;(2B:W5!$U!+!!F4&gt;'6Q)&amp;.J?G5!%5!(!!J4&gt;'6Q)%2F&lt;'&amp;Z!!!K1(!!(A!!&amp;R64&gt;8"Q&lt;(F$&lt;WZU=G^M,GRW9WRB=X-!#6.V=("M?3"*4A!81!I!%&amp;.U98*U;7ZH)&amp;:P&lt;(2B:W5!!'%!]!!-!!-!"!!&amp;!!9!"Q!(!!A!#1!+!!M!$!!.!Q!!?!!!$19!!!U+!!!*!!!!$1M!!!!!!!!!!!!!#A!!!"!!!!!1!!!!%A!!!!I!!!!+!!!.!!M!!!!!!!!!!!!!!!!"!!Y!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'2!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!,%"Q!"Y!!"=65X6Q='RZ1W^O&gt;(*P&lt;#ZM&gt;G.M98.T!!J4&gt;8"Q&lt;(EA4V65!!!91#%41W^N='RJ97ZD:3"F?'.F:72F:!!61!I!$U.V=H*F&lt;H1A6G^M&gt;'&amp;H:1!%!!!!&amp;E"1!!-!!!!"!!)):8*S&lt;X)A;7Y!!"&gt;!#A!25G6R&gt;76T&gt;'6E)&amp;:P&lt;(2B:W5!$U!+!!F4&gt;'6Q)&amp;.J?G5!%5!(!!J4&gt;'6Q)%2F&lt;'&amp;Z!!!K1(!!(A!!&amp;R64&gt;8"Q&lt;(F$&lt;WZU=G^M,GRW9WRB=X-!#6.V=("M?3"*4A!81!I!%&amp;.U98*U;7ZH)&amp;:P&lt;(2B:W5!!'%!]!!-!!-!"!!&amp;!!9!"Q!(!!A!#1!+!!M!$!!.!Q!!?!!!$19!!!U+!!!*!!!!$1M!!!!!!!!!!!!!#A!!!"!!!!!1!!!!%A!!!")!!!!+!!!.!!M!!!!!!!!!!!!!!!!"!!Y!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">256</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1074278928</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 	</Item>
 	<Item Name="Write Command _Arm_.vi" Type="VI" URL="../Write Command _Arm_.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%X!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$*!=!!?!!!8&amp;6.V=("M?5.P&lt;H2S&lt;WQO&lt;(:D&lt;'&amp;T=Q!25X6Q='RZ1W^O&gt;(*P&lt;#"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!71$$`````$5.P&lt;7VB&lt;G1A)E&amp;S&lt;3)!-E"Q!"Y!!"=65X6Q='RZ1W^O&gt;(*P&lt;#ZM&gt;G.M98.T!""4&gt;8"Q&lt;(F$&lt;WZU=G^M)'FO!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!=!#!)!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!1!!!!EA!!!!!"!!E!!!!!</Property>
