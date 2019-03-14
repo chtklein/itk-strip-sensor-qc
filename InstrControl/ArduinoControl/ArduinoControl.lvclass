@@ -25,6 +25,15 @@
 	<Item Name="ArduinoControl.ctl" Type="Class Private Data" URL="ArduinoControl.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="ArduinoAutoDetect.vi" Type="VI" URL="../ArduinoAutoDetect.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%^!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$"!=!!/"5FO=X2S!!!4!)!!!!!!!1!%!!!!!1!!!!!!!!V736.")(*F=W^V=G.F!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!(A!X`````Q!%%Q#!!!!!!!%!"!!!!!%!!!!!!!!!-E"Q!!Y&amp;37ZT&gt;()!!1!(%Q#!!!!!!!%!"!!!!!%!!!!!!!!.6GFT93"3:8.P&gt;8*D:1"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!#!-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!#A!!!!!"!!E!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1074278930</Property>
+	</Item>
 	<Item Name="ArduinoClose.vi" Type="VI" URL="../ArduinoClose.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%U!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$:!=!!?!!!9&amp;E&amp;S:(6J&lt;G^$&lt;WZU=G^M,GRW9WRB=X-!!"*"=G2V;7ZP1W^O&gt;(*P&lt;#"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!.%"Q!"Y!!"A718*E&gt;7FO&lt;U.P&lt;H2S&lt;WQO&lt;(:D&lt;'&amp;T=Q!!%5&amp;S:(6J&lt;G^$&lt;WZU=G^M)'FO!'%!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!(!Q!!?!!!$1A!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!A!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -41,7 +50,7 @@
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1074274834</Property>
 	</Item>
 	<Item Name="ArduinoRead.vi" Type="VI" URL="../ArduinoRead.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)%!!!!%1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!&amp;U!+!"&amp;S:7QO)%BV&lt;7FE;82Z)&amp;MF81!81!I!%&amp;2F&lt;8"F=G&amp;U&gt;8*F)&amp;OQ1VU!!$:!=!!?!!!9&amp;E&amp;S:(6J&lt;G^$&lt;WZU=G^M,GRW9WRB=X-!!"*"=G2V;7ZP1W^O&gt;(*P&lt;#"P&gt;81!!"&gt;!"A!137ZU:8*M&lt;W.L)&amp;.U982V=Q!!&amp;U!'!""&amp;:'&gt;F=W6O=W5A5X2B&gt;(6T!!!%!!!!-U!7!!-%6#^33!F*&lt;H2F=GRP9WM*272H:8.F&lt;H.F!!!118*E&gt;7FO&lt;S"G&gt;7ZD&gt;'FP&lt;A!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!.1!I!"UZV&lt;76S;7-!'%"!!!(`````!!Q,3(6N;72J&gt;(EA35Y!(%"!!!(`````!!Q/6'6N='6S982V=G5A35Y!!$2!=!!?!!!9&amp;E&amp;S:(6J&lt;G^$&lt;WZU=G^M,GRW9WRB=X-!!"&amp;"=G2V;7ZP1W^O&gt;(*P&lt;#"J&lt;A"B!0!!$!!$!!1!"1!'!!=!#!!*!!I!#Q!.!!Y!$Q-!!(A!!!U)!!!*!!!!#1!!!!U,!!!*!!!!#1!!!!!!!!!3!!!!#A!!!1I!!!%+!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!1!!!!!!</Property>
