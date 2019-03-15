@@ -27,12 +27,14 @@
 	*	Keithley 487
 	*	Keithley 236/237	(untested)
 	*	WayneKerr 6440B
+	*	WayneKerr 6425
 	*	Keithley 2000	(untested)
 	
 
 ## How to use the QC LabVIEW scripts:
 *	just copy the repository to the machine used for sensor tests
 *	find VIs for the respective measurement & Configuration in the folder "QCtests"
+*	make sure there are no old VIs with the same name in memory
 
 The LabVIEW scripts have been developed and tested under Windows7 using LabVIEW 2013.
 
@@ -56,9 +58,10 @@ When changing the default instrument, enter the name in the same way as in the l
 
 ## How to include new instruments:
 *	open "InstrControl.lvproj" from the "InstrControl" folder
-*	create a new class (New -> Other Files -> Class) or copy an existing one (preferably of the same type, e.g. supply, as new instrument) and then add to the project (Right-click on existing class -> Save As... -> check "add copy to InstrControl.lvproj")
+*	create a new class (New -> Other Files -> Class) or copy an existing one (preferably of the same type as new instrument, e.g. supply) and then add to the project (Right-click on existing class -> Save As... -> check "add copy to InstrControl.lvproj")
 *	set inheritance appropriately (Right-click on new class -> Properties -> Inheritance)
 *	add/change VIs of new class and create global with instrument commands
+*	test that everything works properly (example test scripts available for most implemented intruments, just copy what has been done there)
 *	add instrument settings in global variable "InstrControl.lvclass:InstrumentSetup.vi"
 *	add case of new instrument in "InstrControl.lvclass:InstrumentSelection.vi"
-*	add tabs in "Configuration.vi"
+*	add tabs in "Configuration.vi" and case in block diagram similar to existing instruments
