@@ -14,3 +14,9 @@ BAKDIR%Z:\www2\QC
 - www directory
 USER%Christoph,Bart
 - list of known users
+SMU%Keithley 2410,Keithley 6517,Keithley 487,Keithley 236
+- list of locally available SMUs
+LCR%WayneKerr 6440B,WayneKerr 6425
+- list of locally available LCR meters
+MULTI%Keithley 2000
+- list of locally available Multimeters

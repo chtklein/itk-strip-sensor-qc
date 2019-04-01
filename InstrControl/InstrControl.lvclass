@@ -25,6 +25,15 @@
 	<Item Name="InstrControl.ctl" Type="Class Private Data" URL="InstrControl.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="GPIB_autodetect.vi" Type="VI" URL="../GPIB_autodetect.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%`!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#"!-0````]837ZT&gt;(*V&lt;76O&gt;#"(5%F#)'&amp;E:(*F=X-!-E"Q!"Y!!"9537ZT&gt;(*$&lt;WZU=G^M,GRW9WRB=X-!!""*&lt;H.U=E.P&lt;H2S&lt;WQA&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$"!=!!?!!!7&amp;%FO=X2S1W^O&gt;(*P&lt;#ZM&gt;G.M98.T!!!037ZT&gt;(*$&lt;WZU=G^M)'FO!&amp;1!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!"!!)!Q!!?!!!$1A!!!!!!!!*!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!#3!!!!!!%!#1!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+	</Item>
 	<Item Name="GPIBreceive.vi" Type="VI" URL="../GPIBreceive.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%;!!!!$A!51$$`````#X*F971A9H6G:G6S!!1!!!!21!=!#H2J&lt;76P&gt;81A&lt;8-!!"B!-0````]/972E=G6T=S"T&gt;(*J&lt;G=!!"&amp;!!Q!+9HFU:3"D&lt;X6O&gt;!!!"!!B!"2!1!!"`````Q!&amp;"H.U982V=Q!!#E!B"76S=G^S!!N!!Q!%9W^E:1!!%%!Q`````Q:T&lt;X6S9W5!!":!5!!$!!=!#!!*#76S=G^S)'^V&gt;!!01!-!#8*F971A&lt;7^E:1!71&amp;!!!Q!(!!A!#1BF=H*P=C"J&lt;A!!3!$Q!!I!!!!"!!)!!Q!%!!9!#A!*!!M!$!-!!+%!!!E!!!!!!!!!#A!!!!A!!!!+!!!!#1!!!!U*!!%+!!!!#A!!!!I!!!!!!1!.!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
