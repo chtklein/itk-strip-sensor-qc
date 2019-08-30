@@ -56,7 +56,7 @@ Using the Configuration VI (not yet fully implemented) or the text files in "./Q
 However, do not alter crucial aspects of the measurement procedure during sensor QC unless approved or only if scripts are used for R&D purposes.
 When changing the default instrument, enter the name in the same way as in the list of implemented instruments above.
 
-## How to include new instruments:
+## How to include new instrument types:
 *	open "InstrControl.lvproj" from the "InstrControl" folder
 *	create a new class (New -> Other Files -> Class) or copy an existing one (preferably of the same type as new instrument, e.g. supply) and then add to the project (Right-click on existing class -> Save As... -> check "add copy to InstrControl.lvproj")
 *	set inheritance appropriately (Right-click on new class -> Properties -> Inheritance)
@@ -65,3 +65,4 @@ When changing the default instrument, enter the name in the same way as in the l
 *	add instrument settings in global variable "InstrControl.lvclass:InstrumentSetup.vi"
 *	add case of new instrument in "InstrControl.lvclass:InstrumentSelection.vi"
 *	add tabs in "Configuration.vi" and case in block diagram similar to existing instruments
+*	multiple instances of the same instrument (but with different GPIB addresses obviously) can be added by just creating an additional cluster with instrument settings and add GPIB address in global "InstrControl.lvclass:InstrumentSetup.vi" + adding case in "InstrControl.lvclass:InstrumentSelection.vi"
