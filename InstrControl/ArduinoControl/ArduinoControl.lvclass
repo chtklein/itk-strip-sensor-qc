@@ -64,11 +64,11 @@
 	<Item Name="Read VISA resource name.vi" Type="VI" URL="../Read VISA resource name.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'+!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"Y!.`````]!""-!A!!!!!!"!!1!!!!"!!!!!!!!!$B!=!!/"5FO=X2S!!%!"2-!A!!!!!!"!!1!!!!"!!!!!!!!%F:*5U%A=G6T&lt;X6S9W5A&lt;G&amp;N:1!!.E"Q!"Y!!"A718*E&gt;7FO&lt;U.P&lt;H2S&lt;WQO&lt;(:D&lt;'&amp;T=Q!!%E&amp;S:(6J&lt;G^$&lt;WZU=G^M)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!U1(!!(A!!'":"=G2V;7ZP1W^O&gt;(*P&lt;#ZM&gt;G.M98.T!!!218*E&gt;7FO&lt;U.P&lt;H2S&lt;WQA;7Y!91$Q!!Q!!Q!%!!9!"Q!%!!1!"!!%!!A!"!!%!!E#!!"Y!!!.#!!!!!!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!#A!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">32</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">268967936</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">8388608</Property>
 	</Item>
 	<Item Name="Write VISA resource name.vi" Type="VI" URL="../Write VISA resource name.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'+!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$:!=!!?!!!9&amp;E&amp;S:(6J&lt;G^$&lt;WZU=G^M,GRW9WRB=X-!!"*"=G2V;7ZP1W^O&gt;(*P&lt;#"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!(A!X`````Q!%%Q#!!!!!!!%!"!!!!!%!!!!!!!!!/%"Q!!Y&amp;37ZT&gt;()!!1!(%Q#!!!!!!!%!"!!!!!%!!!!!!!!36EF413"S:8.P&gt;8*D:3"O97VF!!!U1(!!(A!!'":"=G2V;7ZP1W^O&gt;(*P&lt;#ZM&gt;G.M98.T!!!218*E&gt;7FO&lt;U.P&lt;H2S&lt;WQA;7Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!)!!E#!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!%!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#A!!!!!</Property>
