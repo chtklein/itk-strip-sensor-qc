@@ -33,10 +33,10 @@
 
 ## How to use the QC LabVIEW scripts:
 *	just copy the repository to the machine used for sensor tests
-*	find VIs for the respective measurement & Configuration in the folder "QCtests"
+*	find VIs for the respective measurement in the folder "QCtests"
 *	make sure there are no old VIs with the same name in memory
 
-The LabVIEW scripts have been developed and tested under Windows7 using LabVIEW 2013.
+The LabVIEW scripts have been tested under Windows7/8/10 using LabVIEW 2013 + 2019.
 
 
 ## Local configuration:
@@ -52,7 +52,7 @@ The file will be automatically read when running the scripts.
 
 
 ## Global measurement settings:
-Using the Configuration VI (not yet fully implemented) or the text files in "./QCtests/general_VIs/globals/" default measurement settings can be changed.
+Using the MeasurementConfiguration VI (not yet fully implemented) or the text files in "./QCtests/general_VIs/globals/" default measurement settings can be changed.
 However, do not alter crucial aspects of the measurement procedure during sensor QC unless approved or only if scripts are used for R&D purposes.
 When changing the default instrument, enter the name in the same way as in the list of implemented instruments above.
 
@@ -64,5 +64,5 @@ When changing the default instrument, enter the name in the same way as in the l
 *	test that everything works properly (example test scripts available for most implemented intruments, just copy what has been done there)
 *	add instrument settings in global variable "InstrControl.lvclass:InstrumentSetup.vi"
 *	add case of new instrument in "InstrControl.lvclass:InstrumentSelection.vi"
-*	add tabs in "Configuration.vi" and case in block diagram similar to existing instruments
+*	add tabs in "HardwareConfiguration.vi" and case in block diagram similar to existing instruments
 *	multiple instances of the same instrument (but with different GPIB addresses obviously) can be added by just creating an additional cluster with instrument settings and add GPIB address in global "InstrControl.lvclass:InstrumentSetup.vi" + adding case in "InstrControl.lvclass:InstrumentSelection.vi"
