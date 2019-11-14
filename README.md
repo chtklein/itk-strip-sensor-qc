@@ -29,6 +29,9 @@
 	*	WayneKerr 6440B
 	*	WayneKerr 6425
 	*	Keithley 2000	(untested)
+	*	Alessi REL-6100 probestation
+	*	SemiProbe probestation
+	*	Pickering Switching Matrix + MUX
 	
 
 ## How to use the QC LabVIEW scripts:
@@ -66,3 +69,12 @@ When changing the default instrument, enter the name in the same way as in the l
 *	add case of new instrument in "InstrControl.lvclass:InstrumentSelection.vi"
 *	add tabs in "HardwareConfiguration.vi" and case in block diagram similar to existing instruments
 *	multiple instances of the same instrument (but with different GPIB addresses obviously) can be added by just creating an additional cluster with instrument settings and add GPIB address in global "InstrControl.lvclass:InstrumentSetup.vi" + adding case in "InstrControl.lvclass:InstrumentSelection.vi"
+
+
+## Missing LabVIEW libraries in some versions
+*	some versions of LV do not have certain libraries included (anymore)
+*	to date known issues arise for:
+	*	DDE communication protocol (needed for Alessi probestation)
+*	copies of missing libraries can be found in "./InstrControl/additional LV libraries/"
+*	copy files to
+	*	DDE: "[LabVIEW version]/vi.lib/Platform/"
