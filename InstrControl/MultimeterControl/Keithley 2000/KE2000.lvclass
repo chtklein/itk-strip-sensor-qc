@@ -24,6 +24,19 @@
 	<Item Name="KE2000.ctl" Type="Class Private Data" URL="KE2000.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Private" Type="Folder">
+		<Item Name="KE2000_CommandsGlobal.vi" Type="VI" URL="../KE2000_CommandsGlobal.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;*!!!!$!!71$$`````$%&gt;135)A972E=G6T=Q!!'%!Q`````Q^*&lt;H.U=H6N:7ZU)'ZB&lt;75!&amp;5!'!!^*&lt;H.U=H6N:7ZU)(2Z='5!'%!Q`````Q^$&lt;WVN97ZE)#*3:8.F&gt;#)!(E!Q`````R2$&lt;WVN97ZE)#**&lt;GFU;7&amp;M;8.F)A!!&amp;E!Q`````QV$&lt;WVN97ZE)#*"=GUC!"R!-0````]31W^N&lt;7&amp;O:#!C5W6U6G^M&gt;(-C!!!?1$$`````&amp;5.P&lt;7VB&lt;G1A)E.P&lt;8"M;7&amp;O9W5`)A!;1$$`````%5.P&lt;7VB&lt;G1A)F.U97ZE9HEC!#"!-0````]71W^N&lt;7&amp;O:#!C5G6B:#"$&gt;8*S:7ZU)A!!.E"1!!I!!!!"!!)!!Q!%!!5!"A!(!!A!#2N,:7FU;'RF?3!S-T9P-D-X)%&gt;135)A5W6U&gt;8!!#!"1!!%!#A!"!!M!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082130944</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+	</Item>
+	<Item Name="Protected" Type="Folder"/>
 	<Item Name="Instr_InitObject.vi" Type="VI" URL="../Instr_InitObject.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%\!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#:!=!!?!!!1$EN&amp;-D!Q-#ZM&gt;G.M98.T!!!+3U5S-$!Q)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!?1&amp;-937ZT&gt;(*V&lt;76O&gt;#"$&lt;WZG;7&gt;V=G&amp;U;7^O!!!71$$`````$%&gt;135)A172E=G6T=Q!!*%"Q!"Y!!"!/3U5S-$!Q,GRW9WRB=X-!!!F,24)Q-$!A;7Y!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"Q!)!!E$!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!1!!!"%A!!!*)!!!!!!1!+!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -32,15 +45,5 @@
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1342972432</Property>
-	</Item>
-	<Item Name="KE2000_CommandsGlobal.vi" Type="VI" URL="../KE2000_CommandsGlobal.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;*!!!!$!!71$$`````$%&gt;135)A972E=G6T=Q!!'%!Q`````Q^*&lt;H.U=H6N:7ZU)'ZB&lt;75!&amp;5!'!!^*&lt;H.U=H6N:7ZU)(2Z='5!'%!Q`````Q^$&lt;WVN97ZE)#*3:8.F&gt;#)!(E!Q`````R2$&lt;WVN97ZE)#**&lt;GFU;7&amp;M;8.F)A!!&amp;E!Q`````QV$&lt;WVN97ZE)#*"=GUC!"R!-0````]31W^N&lt;7&amp;O:#!C5W6U6G^M&gt;(-C!!!?1$$`````&amp;5.P&lt;7VB&lt;G1A)E.P&lt;8"M;7&amp;O9W5`)A!;1$$`````%5.P&lt;7VB&lt;G1A)F.U97ZE9HEC!#"!-0````]71W^N&lt;7&amp;O:#!C5G6B:#"$&gt;8*S:7ZU)A!!.E"1!!I!!!!"!!)!!Q!%!!5!"A!(!!A!#2N,:7FU;'RF?3!S-T9P-D-X)%&gt;135)A5W6U&gt;8!!#!"1!!%!#A!"!!M!!!!!</Property>
-		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-		<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
-		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1082130944</Property>
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 </LVClass>

@@ -1,17 +1,17 @@
 Default CV measurement configurations
 ==================================
 SUPPLY%Keithley 2410
-- default supply
+- default supply; Only really necessary for tests without user input.
 LCR%WayneKerr 6440B
-- default LCR meter
+- default LCR meter; Only really necessary for tests without user input.
 INITIALV%0
-- initial bias voltage of CV scan, TDR: 0
-FINALV%-700
-- final bias voltage of CV scan, TDR: -700
+- initial bias voltage of CV scan, QC doc: 0
+FINALV%-500
+- final bias voltage of CV scan, QC doc: -500
 STEPSIZE%10
-- size of voltage steps during CV scan, TDR: 10
+- size of voltage steps during CV scan, QC doc: 10
 STEPDELAY%5
-- interval between voltage steps during CV scan in seconds, TDR: 5
+- interval between voltage steps during CV scan in seconds, QC doc: 3x RC time of network
 ACFREQUENCY%500
 - default AC frequency for CV scans in Hz, TDR: 500-5000
 RCCONFIG%serial
@@ -21,10 +21,10 @@ ACAMPLITUDE%0.1
 NUMBEROFSTEPS%71
 - number of steps per CV scan
 RAMPDOWNSTEPS%10
-- ramp down steps in Volts, TDR: 10
+- ramp down steps in Volts
 RAMPDOWNDELAY%1
-- ramp down interval in seconds, TDR: 1
+- ramp down interval in seconds
 TREADOUT%Arduino
-- Arduino or not?
+- Arduino or not? Only really necessary for tests without user input.
 VDEPLETION%-300
 - Maximum depletion voltage allowed in specs in volts

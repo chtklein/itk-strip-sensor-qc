@@ -26,6 +26,19 @@
 	<Item Name="KE487.ctl" Type="Class Private Data" URL="KE487.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Private" Type="Folder">
+		<Item Name="KE487_CommandsGlobal.vi" Type="VI" URL="../KE487_CommandsGlobal.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;(!!!!$!!71$$`````$%&gt;135)A972E=G6T=Q!!'%!Q`````Q^*&lt;H.U=H6N:7ZU)'ZB&lt;75!&amp;5!'!!^*&lt;H.U=H6N:7ZU)(2Z='5!'%!Q`````Q^$&lt;WVN97ZE)#*3:8.F&gt;#)!(E!Q`````R2$&lt;WVN97ZE)#**&lt;GFU;7&amp;M;8.F)A!!&amp;E!Q`````QV$&lt;WVN97ZE)#*"=GUC!"R!-0````]31W^N&lt;7&amp;O:#!C5W6U6G^M&gt;(-C!!!?1$$`````&amp;5.P&lt;7VB&lt;G1A)E.P&lt;8"M;7&amp;O9W5`)A!;1$$`````%5.P&lt;7VB&lt;G1A)F.U97ZE9HEC!#"!-0````]71W^N&lt;7&amp;O:#!C5G6B:#"$&gt;8*S:7ZU)A!!.%"1!!I!!!!"!!)!!Q!%!!5!"A!(!!A!#2B,:7FU;'RF?3!S.$%Q)%&gt;135)A5W6U&gt;8!!!!A!5!!"!!I!!1!,!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082130944</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+	</Item>
+	<Item Name="Protected" Type="Folder"/>
 	<Item Name="GPIB_autodetect.vi" Type="VI" URL="../GPIB_autodetect.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;&gt;!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#"!-0````]837ZT&gt;(*V&lt;76O&gt;#"(5%F#)'&amp;E:(*F=X-!)E"Q!"Y!!!].3U5U/$=O&lt;(:D&lt;'&amp;T=Q!*3U5U/$=A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!'%!B%V:F=GFG?3"(5%F#)'&amp;E:(*F=X-!*%!Q`````RJ*&lt;H.U=H6N:7ZU)%&gt;135)A972E=G6T=S"J&lt;A!!)E"Q!"Y!!!].3U5U/$=O&lt;(:D&lt;'&amp;T=Q!)3U5U/$=A;7Y!!&amp;1!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!A!#1!+!Q!!?!!!$1A!!!!!!!!*!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!%A!!!1I!!!#3!!!!!!%!#Q!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -43,16 +56,6 @@
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1342972432</Property>
-	</Item>
-	<Item Name="KE487_CommandsGlobal.vi" Type="VI" URL="../KE487_CommandsGlobal.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;(!!!!$!!71$$`````$%&gt;135)A972E=G6T=Q!!'%!Q`````Q^*&lt;H.U=H6N:7ZU)'ZB&lt;75!&amp;5!'!!^*&lt;H.U=H6N:7ZU)(2Z='5!'%!Q`````Q^$&lt;WVN97ZE)#*3:8.F&gt;#)!(E!Q`````R2$&lt;WVN97ZE)#**&lt;GFU;7&amp;M;8.F)A!!&amp;E!Q`````QV$&lt;WVN97ZE)#*"=GUC!"R!-0````]31W^N&lt;7&amp;O:#!C5W6U6G^M&gt;(-C!!!?1$$`````&amp;5.P&lt;7VB&lt;G1A)E.P&lt;8"M;7&amp;O9W5`)A!;1$$`````%5.P&lt;7VB&lt;G1A)F.U97ZE9HEC!#"!-0````]71W^N&lt;7&amp;O:#!C5G6B:#"$&gt;8*S:7ZU)A!!.%"1!!I!!!!"!!)!!Q!%!!5!"A!(!!A!#2B,:7FU;'RF?3!S.$%Q)%&gt;135)A5W6U&gt;8!!!!A!5!!"!!I!!1!,!!!!!!</Property>
-		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-		<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
-		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1082130944</Property>
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="KE487_Test.vi" Type="VI" URL="../KE487_Test.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%/!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#*!=!!?!!!0$5N&amp;.$AX,GRW9WRB=X-!#5N&amp;.$AX)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!#*!=!!?!!!0$5N&amp;.$AX,GRW9WRB=X-!#%N&amp;.$AX)'FO!!"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!)!!!!!!</Property>

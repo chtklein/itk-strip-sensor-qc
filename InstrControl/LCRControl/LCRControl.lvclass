@@ -26,6 +26,7 @@
 	<Item Name="LCRControl.ctl" Type="Class Private Data" URL="LCRControl.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Private" Type="Folder"/>
 	<Item Name="Protected" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		<Item Name="Read Command _Initialise LCR_.vi" Type="VI" URL="../Read Command _Initialise LCR_.vi">

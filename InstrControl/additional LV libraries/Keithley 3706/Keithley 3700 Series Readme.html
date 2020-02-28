@@ -1,0 +1,403 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=us-ascii">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 11">
+<meta name=Originator content="Microsoft Word 11">
+<link rel=File-List href="Keithley%203700%20Series%20Readme_files/filelist.xml">
+<title>Keithley Instruments 3700 Series Instrument Driver Readme</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Ed Starkey</o:Author>
+  <o:LastAuthor>Ed Starkey</o:LastAuthor>
+  <o:Revision>20</o:Revision>
+  <o:TotalTime>129</o:TotalTime>
+  <o:Created>2010-02-01T21:07:00Z</o:Created>
+  <o:LastSaved>2011-10-07T18:49:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>349</o:Words>
+  <o:Characters>1991</o:Characters>
+  <o:Company>Keithley Instruments, Inc.</o:Company>
+  <o:Lines>16</o:Lines>
+  <o:Paragraphs>4</o:Paragraphs>
+  <o:CharactersWithSpaces>2336</o:CharactersWithSpaces>
+  <o:Version>11.9999</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:Zoom>BestFit</w:Zoom>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" LatentStyleCount="156">
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+h2
+	{mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:2;
+	font-size:18.0pt;
+	font-family:"Times New Roman";}
+h4
+	{mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:4;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:583146977;
+	mso-list-template-ids:-612958994;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1
+	{mso-list-id:730466177;
+	mso-list-template-ids:423537546;}
+@list l1:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l2
+	{mso-list-id:1089620475;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-301688274 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l2:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l2:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3
+	{mso-list-id:1377585938;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1348920394 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l3:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l4
+	{mso-list-id:1779913159;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-136646670 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l4:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l4:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style>
+<![endif]--><!-- Find and Replace all instances of 'Driver Identifer' with the Driver Identifier of your instrument driver 
+
+     Remove this note once this is complete. --><!-- Replace all the instructions that appear within the <font color="red"> tags with information about your instrument driver.  Make sure to delete the <font color="red"> tags as you fill in each line. Remove this note once this is complete.--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="13314"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=EN-US link=blue vlink=blue style='tab-interval:.5in'>
+
+<div class=Section1>
+
+<h2><span style='font-family:Arial'>Keithley 3700 Series Instrument Driver
+Readme<o:p></o:p></span></h2>
+
+<h4><span style='font-family:Arial'><u1:p></u1:p>1. Overview<o:p></o:p></span></h4>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span
+style='font-family:Arial'>Instrument Driver Technology: <span class=SpellE>LabVIEW</span>
+Plug and Play <br>
+Manufacturer: Keithley Instruments <br>
+Supported Language(s): <span class=SpellE>LabVIEW</span> 8.0 or greater<br>
+Supported Model(s): Keithley 3706, 3706A <br>
+Model(s) Tested: Keithley 3706, 3706A<br>
+Interface(s): GPIB, USB, Ethernet<br>
+Firmware Revision Tested: 1.5.0 <br>
+<br>
+Certified: No<br>
+Keithley Supported: Yes <br>
+Source Code Available: Yes <br>
+<br>
+Driver Revision: 1.1.2<br>
+Original Release Date: 9/14/2007 <br>
+Current Revision Date: 10/07/2011 <o:p></o:p></span></p>
+
+<h4><span style='font-family:Arial'>2. Required Software<o:p></o:p></span></h4>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span
+style='font-family:Arial'>Some software components need to be installed before
+using this instrument driver. The minimum versions of these components are
+listed below, and can be downloaded from the Download Site. <br>
+<br>
+VISA 4.0 or later <br>
+<br>
+<br>
+For more details, refer to the <span class=SpellE><i>LabVIEW</i></span><i> Help</i>
+under <i>Help &raquo; VI, Function, &amp; How-To Help</i>. <o:p></o:p></span></p>
+
+<h4><span style='font-family:Arial'>3. Known Issues<o:p></o:p></span></h4>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span
+style='font-family:Arial'>To report issues or provide feedback about this
+instrument driver, please send an email to <a
+href="mailto:applications@keithley.com">applications@keithley.com</a>. <o:p></o:p></span></p>
+
+<h4><span style='font-family:Arial'>4. Revision History<o:p></o:p></span></h4>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span
+style='font-family:Arial'>The latest version of this and other <span
+class=SpellE>LabVIEW</span> instrument drivers can be downloaded at the <a
+href="http://www.keithley.com">Keithley Instruments Website</a>.<br
+style='mso-special-character:line-break'>
+<![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
+<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><b
+style='mso-bidi-font-weight:normal'><span style='font-family:Arial'>REV 1.1.2, 10/07/2011<br>
+</span></b><span style='font-family:Arial'>Keithley Instruments, Inc.<o:p></o:p></span></p>
+
+<ul type=disc>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l3 level1 lfo7;tab-stops:list .5in'><span style='font-family:
+     Arial'>Fix instrument pallet issue.<o:p></o:p></span></li>
+</ul>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span
+style='font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><b
+style='mso-bidi-font-weight:normal'><span style='font-family:Arial'>REV 1.1.1,
+6/07/2011<br>
+</span></b><span style='font-family:Arial'>Keithley Instruments, Inc.<o:p></o:p></span></p>
+
+<ul type=disc>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l2 level1 lfo3;tab-stops:list .5in'><span style='font-family:
+     Arial'>Updated supported models to include the 3706A.<b style='mso-bidi-font-weight:
+     normal'><o:p></o:p></b></span></li>
+</ul>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span
+style='font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><b
+style='mso-bidi-font-weight:normal'><span style='font-family:Arial'>REV 1.1.0,
+7/09/2010</span></b><span style='font-family:Arial'><br>
+Keithley Instruments, Inc.<o:p></o:p></span></p>
+
+<ul type=disc>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l4 level1 lfo6;tab-stops:list .5in'><span style='font-family:
+     Arial'>Changed the driver from the LLB format to a <span class=SpellE>LabVIEW</span>
+     Plug and Play format.<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l4 level1 lfo6;tab-stops:list .5in'><span style='font-family:
+     Arial'>Added support for 3750 Multifunction I/O Card.<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l4 level1 lfo6;tab-stops:list .5in'><span style='font-family:
+     Arial'>Added support for TSP Script handling with the TSP Script Loader, Run
+     TSP Script, Delete TSP Script, Terminate <span class=SpellE>TSp</span>
+     Script and Get TSP Script Catalog <span class=SpellE>VIs</span>.<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l4 level1 lfo6;tab-stops:list .5in'><span style='font-family:
+     Arial'>Added support for 3732 Quad 4x28 High Density Reed Matrix Card.<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l4 level1 lfo6;tab-stops:list .5in'><span style='font-family:
+     Arial'>Added support for 3724,3731,3732 and 3750 <span class=SpellE>Pseudocards</span>.
+     <o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l4 level1 lfo6;tab-stops:list .5in'><span style='font-family:
+     Arial'>Corrected error in the Configure Scan Vi<span
+     style='mso-spacerun:yes'>&nbsp; </span>Scan Count parameter. Added Measure
+     Count input.<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l4 level1 lfo6;tab-stops:list .5in'><span style='font-family:
+     Arial'>Added support for Appending Multi Channel Scan Steps in the Scan
+     List VI using the <span class=SpellE>scan.addimagestep</span>() command.<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l4 level1 lfo6;tab-stops:list .5in'><span style='font-family:
+     Arial'>Added support for simplified channel creation with the Channel
+     Create <span class=SpellE>Specifier.vi</span> using the <span
+     class=SpellE>channel.createspecifier</span>() command.<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l4 level1 lfo6;tab-stops:list .5in'><span style='font-family:
+     Arial'>Corrected error in Configure Measurement Vi with setting Auto Zero
+     control to &#8216;On&#8217;.<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l4 level1 lfo6;tab-stops:list .5in'><span style='font-family:
+     Arial'>Updated documentation errors.<o:p></o:p></span></li>
+</ul>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span
+style='font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span
+style='font-family:Arial'><br>
+<b style='mso-bidi-font-weight:normal'>REV 1.0.2, 9/14/2007</b> <br>
+Modified by: Keithley Instruments<br>
+Original Release for <span class=SpellE>LabVIEW</span> 8.0 <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+
+</div>
+
+</body>
+
+</html>
