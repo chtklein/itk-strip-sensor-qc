@@ -14,10 +14,11 @@
 	*	CV
 	*	inter-strip Capacitance
 	*	inter-strip Resistance
+	*	Striptest
 
 *	Local configurations specific for every QC site stored in simple text file
 
-*	Global measurement configurations according to ITk Technical Design Report (https://cds.cern.ch/record/2257755)
+*	Global measurement configurations according to ITk Technical Design Report (https://cds.cern.ch/record/2257755) and QC document (https://edms.cern.ch/ui/file/2117065/1/ITk_Strip_Sensor_Quality_Control_Specification_Document_-_V3_27_03_2019_docx_cpdf.pdf)
 
 *	direct feedback whether DUT passed QC criteria
 
@@ -32,6 +33,7 @@
 	*	Alessi REL-6100 probestation
 	*	SemiProbe probestation
 	*	Pickering Switching Matrix + MUX
+	*	Keithley 3706A Switching system
 	
 
 ## How to use the QC LabVIEW scripts:
@@ -40,22 +42,24 @@
 *	make sure there are no old VIs with the same name in memory
 
 The LabVIEW scripts have been tested under Windows7/8/10 using LabVIEW 2013 + 2019.
+I will include versions for anything in between once striptest is fully overhauled.
 
 
 ## Local configuration:
 In "./QCtests/general_VIs/LocalConfig/QCconfig.txt" several parameters (e.g. institute name, data directories, etc.) are defined which should be changed accordingly for every local setup.
 The file will be automatically read when running the scripts.
-*	INSTITUTE - local institute
+*	INSTITUTE - local institute (see ITk database)
 *	MANUFACTURERS - all sensor manufacturers
-*	DEVICES - sensor type (short strip, R0, etc.)
-*	SERIALNUMBERS - unused at the moment, may be used later for dbase serial numbers
+*	DEVICES - sensor type (short strip, R0, etc.); names according to database categories
+*	SERIALNUMBERS - unused at the moment, may be used later for dbase serial numbers lookup
 *	DATADIR - path to directory structure used to save measurement data files
 *	BAKDIR - path to directory used to save screenshots and temporary data files for backup in the case of long-term measurements
 *	USER - list of users at the local institute
 
 
 ## Global measurement settings:
-Using the MeasurementConfiguration VI (not yet fully implemented) or the text files in "./QCtests/general_VIs/globals/" default measurement settings can be changed.
+During the setup measurement settings can be changed for ONE scan.
+Using the text files in "./QCtests/general_VIs/globals/" default measurement settings which will be loaded before each measurement can be changed.
 However, do not alter crucial aspects of the measurement procedure during sensor QC unless approved or only if scripts are used for R&D purposes.
 When changing the default instrument, enter the name in the same way as in the list of implemented instruments above.
 
@@ -75,6 +79,9 @@ When changing the default instrument, enter the name in the same way as in the l
 *	some versions of LV do not have certain libraries included (anymore)
 *	to date known issues arise for:
 	*	DDE communication protocol (needed for Alessi probestation)
-*	copies of missing libraries can be found in "./InstrControl/additional LV libraries/"
+*	added third-party instrument drivers for:
+	*	Keithley 37xx switching system
+*	copies of missing/additional libraries can be found in "./InstrControl/additional LV libraries/"
 *	copy files to
 	*	DDE: "[LabVIEW version]/vi.lib/Platform/"
+	*	Keithley 37xx: "[LabVIEW version]/instr.lib/"
