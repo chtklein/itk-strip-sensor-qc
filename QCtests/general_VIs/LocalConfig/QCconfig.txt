@@ -1,13 +1,13 @@
-Labview configuration at Cambridge
+Labview configuration at Carleton
 ==================================
-INSTITUTE%Cambridge
+INSTITUTE%CU
 - this institute
-MANUFACTURERS%Hamamatsu,Infineon
+MANUFACTURERS%Hamamatsu
 - list of sensor production manufacturers
-DEVICES%Short Strip,Long Strip,R0,R1,R2,R3,R4,R5,Mini,Test Structure
+DEVICES%ATLAS07,ATLAS12,ATLAS12EC,ATLAS17LS,ATLAS18SS
 - list of different device types
 SERIALNUMBERS%Z:\sctdb\atlas07sensors.txt
-- lookup table for serial numbers, first on a shared network disk and then the local copy
+- lookup table for serial numbers, currently unused
 DATADIR%C:\Users\Administrator\Desktop\QC_script_test
 - all the data directores
 BAKDIR%Z:\www2\QC
@@ -15,8 +15,8 @@ BAKDIR%Z:\www2\QC
 USER%Christoph,Bart
 - list of known users
 SMU%Keithley 2410,Keithley 6517,Keithley 487,Keithley 236
-- list of locally available SMUs
+- list of locally available SMUs; unused
 LCR%WayneKerr 6440B,WayneKerr 6425
-- list of locally available LCR meters
+- list of locally available LCR meters; unused
 MULTI%Keithley 2000
-- list of locally available Multimeters
+- list of locally available Multimeters; unused

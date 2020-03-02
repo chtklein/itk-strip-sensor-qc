@@ -14,7 +14,7 @@
 	*	CV
 	*	inter-strip Capacitance
 	*	inter-strip Resistance
-	*	Striptest
+	*	Striptest (still needs probeplan rotation for alignment)
 
 *	Local configurations specific for every QC site stored in simple text file
 
@@ -32,8 +32,8 @@
 	*	Keithley 2000	(untested)
 	*	Alessi REL-6100 probestation
 	*	SemiProbe probestation
-	*	Pickering Switching Matrix + MUX
-	*	Keithley 3706A Switching system
+	*	Pickering Switching Matrix + MUX (for switching between measurement setups)
+	*	Keithley 3706A Switching system (for switching between multiple DUTs)
 	
 
 ## How to use the QC LabVIEW scripts:
@@ -50,11 +50,13 @@ In "./QCtests/general_VIs/LocalConfig/QCconfig.txt" several parameters (e.g. ins
 The file will be automatically read when running the scripts.
 *	INSTITUTE - local institute (see ITk database)
 *	MANUFACTURERS - all sensor manufacturers
-*	DEVICES - sensor type (short strip, R0, etc.); names according to database categories
-*	SERIALNUMBERS - unused at the moment, may be used later for dbase serial numbers lookup
+*	DEVICES - sensor types (short strip, R0, etc.) used at QC site; batch names according to database categories (e.g. ATLAS18SS for pre-production short-strip sensors)
+*	SERIALNUMBERS - unused at the moment, may be used later for dbase serial numbers lookup file
 *	DATADIR - path to directory structure used to save measurement data files
 *	BAKDIR - path to directory used to save screenshots and temporary data files for backup in the case of long-term measurements
 *	USER - list of users at the local institute
+
+For instruments corresponding to already implemented instrument classes, adjust "Instrument GPIB addresses" cluster in global variable "InstrControl.lvclass:InstrumentSetup.vi" accordingly. 
 
 
 ## Global measurement settings:
