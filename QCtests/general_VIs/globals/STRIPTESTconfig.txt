@@ -28,7 +28,7 @@ ACAMPLITUDE%0.1
 - default AC amplitude in volts, 100mV
 TREADOUT%Arduino
 - Arduino or not?
-GOODSTRIPS%98.5
+GOODSTRIPS%98
 - minimum fraction of good strips
 CARD%1
 - default probecard channels
