@@ -1,0 +1,34 @@
+Default IV measurement configurations
+==================================
+BIASSUPPLY%Keithley 6517
+- default bias supply
+SMU%Keithley 2410
+- default SMU for pinhole test
+LCR%Wayne Kerr 6440B
+- default LCR meter
+BIASV%-350
+- bias voltage during striptest; QC doc: Vdep+50
+BASEV%10
+- low voltage setting for pinhole test
+BASERAMP%10
+- step size for pinhole test ramp up
+BASEINT%1000
+- step interval in ms; QC doc: ramp up in one step 10V/s
+HIGHV%100
+- high voltage setting for pinhole test
+HIGHRAMP%100
+- step size for pinhole test ramp up
+HIGHINT%1000
+- step interval in ms; QC doc: ramp up in one step 100V/s
+ACFREQUENCY%1000
+- default AC frequency for CV scans in Hz, TDR: 500-5000
+RCCONFIG%serial
+- RC configuration of LCR meter for CV scan, serial
+ACAMPLITUDE%0.1
+- default AC amplitude in volts, 100mV
+TREADOUT%Arduino
+- Arduino or not?
+GOODSTRIPS%98
+- minimum fraction of good strips
+CARD%1
+- default probecard channels

@@ -78,9 +78,9 @@ When changing the default instrument, enter the name in the same way as in the l
 
 
 ## Missing LabVIEW libraries in some versions
-*	some versions of LV do not have certain libraries included (anymore)
+*	some versions of LV do not have certain libraries included
 *	to date known issues arise for:
-	*	DDE communication protocol (needed for Alessi probestation)
+	*	DDE communication protocol (needed for Alessi probestation) -> DDE only works in 32-bit versions of LV
 *	added third-party instrument drivers for:
 	*	Keithley 37xx switching system
 *	copies of missing/additional libraries can be found in "./InstrControl/additional LV libraries/"
