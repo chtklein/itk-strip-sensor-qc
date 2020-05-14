@@ -34,6 +34,7 @@
 		<Item Name="KE487.lvclass" Type="LVClass" URL="../SupplyControl/Keithley 487/KE487.lvclass"/>
 		<Item Name="KE2410.lvclass" Type="LVClass" URL="../SupplyControl/Keithley 2410/KE2410.lvclass"/>
 		<Item Name="KE6517.lvclass" Type="LVClass" URL="../SupplyControl/Keithley 6517/KE6517.lvclass"/>
+		<Item Name="KE2657A.lvclass" Type="LVClass" URL="../SupplyControl/Keithley 2657A/KE2657A.lvclass"/>
 		<Item Name="Switching.lvclass" Type="LVClass" URL="../Switching/Switching.lvclass"/>
 		<Item Name="LXIPXISwitching.lvclass" Type="LVClass" URL="../Switching/LXIPXISwitching/LXIPXISwitching.lvclass"/>
 		<Item Name="KE3706A.lvclass" Type="LVClass" URL="../Switching/Keithley 3706A/KE3706A.lvclass"/>
