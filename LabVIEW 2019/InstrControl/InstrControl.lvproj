@@ -59,6 +59,7 @@
 				<Item Name="pi40iv Set Output Bit.vi" Type="VI" URL="/&lt;instrlib&gt;/pi40iv/pi40iv.llb/pi40iv Set Output Bit.vi"/>
 				<Item Name="pi40iv Connect Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/pi40iv/pi40iv.llb/pi40iv Connect Channels.vi"/>
 				<Item Name="pi40iv Disconnect Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/pi40iv/pi40iv.llb/pi40iv Disconnect Channels.vi"/>
+				<Item Name="pi40iv Close.vi" Type="VI" URL="/&lt;instrlib&gt;/pi40iv/pi40iv.llb/pi40iv Close.vi"/>
 			</Item>
 			<Item Name="Keithley 3700 Series.lvlib" Type="Library" URL="../additional LV libraries/Keithley 3706/Keithley 3700 Series.lvlib"/>
 			<Item Name="pi40iv32.dll" Type="Document" URL="pi40iv32.dll">
