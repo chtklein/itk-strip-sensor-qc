@@ -3,8 +3,8 @@
 
 > LabVIEW scripts for the ATLAS Inner Tracker Strip Sensor Quality Control
 
-## Author
-*	Christoph Klein
+## Authors
+*	Christoph Klein, Graham Greig
 
 ---------------------------------------------------------------------------------------
 ## Features
@@ -51,10 +51,11 @@ The file will be automatically read when running the scripts.
 *	INSTITUTE - local institute (see ITk database)
 *	MANUFACTURERS - all sensor manufacturers
 *	DEVICES - sensor types (short strip, R0, etc.) used at QC site; batch names according to database categories (e.g. ATLAS18SS for pre-production short-strip sensors)
-*	SERIALNUMBERS - unused at the moment, may be used later for dbase serial numbers lookup file
+*	SERIALNUMBERS - location of dbase serial numbers lookup file, example file in ./QCTests/general_VIs/database/
 *	DATADIR - path to directory structure used to save measurement data files
 *	BAKDIR - path to directory used to save screenshots and temporary data files for backup in the case of long-term measurements
 *	USER - list of users at the local institute
+*	IVRSERIES, etc. - resistors and capacitors in local setup, will be saved in corresponding measurement data headers
 
 For instruments corresponding to already implemented instrument classes, adjust "Instrument GPIB addresses" cluster in global variable "InstrControl.lvclass:InstrumentSetup.vi" accordingly. 
 
