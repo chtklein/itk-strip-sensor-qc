@@ -15,12 +15,15 @@
 	*	inter-strip Capacitance
 	*	inter-strip Resistance
 	*	Striptest (still needs probeplan rotation for alignment)
+	*	Current Stability (Prague box setup with DUT switching)
 
 *	Local configurations specific for every QC site stored in simple text file
 
 *	Global measurement configurations according to ITk Technical Design Report (https://cds.cern.ch/record/2257755) and QC document (https://edms.cern.ch/ui/file/2117065/1/ITk_Strip_Sensor_Quality_Control_Specification_Document_-_V3_27_03_2019_docx_cpdf.pdf)
 
 *	direct feedback whether DUT passed QC criteria
+
+*	sequential IV & CV measurement scripts as done at Carleton, can be used as templates
 
 *	implemented instruments:
 	*	Keithley 2410
@@ -78,13 +81,15 @@ When changing the default instrument, enter the name in the same way as in the l
 *	multiple instances of the same instrument (but with different GPIB addresses obviously) can be added by just creating an additional cluster with instrument settings and add GPIB address in global "InstrControl.lvclass:InstrumentSetup.vi" + adding case in "InstrControl.lvclass:InstrumentSelection.vi"
 
 
-## Missing LabVIEW libraries in some versions
+## Missing LabVIEW libraries and 3rd party drivers
 *	some versions of LV do not have certain libraries included
 *	to date known issues arise for:
 	*	DDE communication protocol (needed for Alessi probestation) -> DDE only works in 32-bit versions of LV
 *	added third-party instrument drivers for:
-	*	Keithley 37xx switching system
+	*	Keithley 37xx switching system (Carleton setup)
+	*	Pickering IVI switch PI40IV (TRIUMF setup; currently LV2019 only)
 *	copies of missing/additional libraries can be found in "./InstrControl/additional LV libraries/"
-*	copy files to
-	*	DDE: "[LabVIEW version]/vi.lib/Platform/"
-	*	Keithley 37xx: "[LabVIEW version]/instr.lib/"
+*	use of files
+	*	DDE: copy dde.llb to "[LabVIEW version]/vi.lib/Platform/"
+	*	Keithley 37xx: copy folder to "[LabVIEW version]/instr.lib/"
+	*	PI40IV: use installer in folder

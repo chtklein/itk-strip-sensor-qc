@@ -24,17 +24,11 @@ DCBLOCK%2.2
 - DC blocking capacitor for LCR meter in uF
 LCRRSERIES%1
 - series resistor for LCR meter in MOhm
-STABRSERIES%0
+STABRSERIES%13.2
 - series resistor during stability test in MOhm
-STABRSHUNT%0
+STABRSHUNT%1
 - shunt resistor during stability test in MOhm
 BIASRSERIES%0.1
 - series resistor during IV in MOhm
 RPINHOLE%2.2
 - series resistor during pinhole test
-SMU%Keithley 2410,Keithley 6517,Keithley 487,Keithley 236
-- list of locally available SMUs; unused
-LCR%WayneKerr 6440B,WayneKerr 6425
-- list of locally available LCR meters; unused
-MULTI%Keithley 2000
-- list of locally available Multimeters; unused
