@@ -32,7 +32,7 @@
 	*	Keithley 236/237	(untested)
 	*	WayneKerr 6440B
 	*	WayneKerr 6425
-	*	Keithley 2000	(untested)
+	*	Keithley 2000
 	*	Alessi REL-6100 probestation
 	*	SemiProbe probestation
 	*	Pickering Switching Matrix + MUX (for switching between measurement setups)
