@@ -16,12 +16,16 @@
 	*	inter-strip Resistance
 	*	Striptest (still needs probeplan rotation for alignment)
 	*	Current Stability (Prague box setup with DUT switching)
+	
+*	QA tests ready to be used:
+	* Gate-controlled Diode
+	
 
-*	Local configurations specific for every QC site stored in simple text file
+*	Local configurations specific for every QC/QA site stored in simple text file
 
-*	Global measurement configurations according to ITk Technical Design Report (https://cds.cern.ch/record/2257755) and QC document (https://edms.cern.ch/ui/file/2117065/1/ITk_Strip_Sensor_Quality_Control_Specification_Document_-_V3_27_03_2019_docx_cpdf.pdf)
+*	Global measurement configurations according to ITk Technical Design Report (https://cds.cern.ch/record/2257755), QC document (https://edms.cern.ch/ui/file/2117065/1/ITk_Strip_Sensor_Quality_Control_Specification_Document_-_V3_27_03_2019_docx_cpdf.pdf), and QA document
 
-*	direct feedback whether DUT passed QC criteria
+*	direct feedback whether DUT passed QC/QA criteria
 
 *	sequential IV & CV measurement scripts as done at Carleton, can be used as templates
 
@@ -41,7 +45,7 @@
 
 ## How to use the QC LabVIEW scripts:
 *	just copy the repository to the machine used for sensor tests
-*	find VIs for the respective measurement in the folder "QCtests"
+*	find VIs for the respective measurement in the folder "QCtests" and "QAtests"
 *	make sure there are no old VIs with the same name in memory
 
 The LabVIEW scripts have been tested under Windows7/8/10 using LabVIEW 2013 + 2019.
