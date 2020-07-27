@@ -23,7 +23,7 @@
 
 *	Local configurations specific for every QC/QA site stored in simple text file
 
-*	Global measurement configurations according to ITk Technical Design Report (https://cds.cern.ch/record/2257755), QC document (https://edms.cern.ch/ui/file/2117065/1/ITk_Strip_Sensor_Quality_Control_Specification_Document_-_V3_27_03_2019_docx_cpdf.pdf), and QA document
+*	Global measurement configurations according to ITk Technical Design Report (https://cds.cern.ch/record/2257755), QC document (https://edms.cern.ch/ui/file/2117065/2/ITk_Strip_Sensor_Quality_Control_Specification_Document_-_V3_08_04_2019.pdf), and QA document
 
 *	direct feedback whether DUT passed QC/QA criteria
 
@@ -48,12 +48,12 @@
 *	find VIs for the respective measurement in the folder "QCtests" and "QAtests"
 *	make sure there are no old VIs with the same name in memory
 
-The LabVIEW scripts have been tested under Windows7/8/10 using LabVIEW 2013 + 2019.
+The LabVIEW scripts have been tested under Windows7/8/10 using LabVIEW 2013, 2014, and 2019.
 I will include versions for anything in between once striptest is fully overhauled.
 
 
 ## Local configuration:
-In "./QCtests/general_VIs/LocalConfig/QCconfig.txt" several parameters (e.g. institute name, data directories, etc.) are defined which should be changed accordingly for every local setup.
+In "./general_VIs/LocalConfig/QCconfig.txt" several parameters (e.g. institute name, data directories, etc.) are defined which should be changed accordingly for every local setup.
 The file will be automatically read when running the scripts.
 *	INSTITUTE - local institute (see ITk database)
 *	MANUFACTURERS - all sensor manufacturers
@@ -69,7 +69,7 @@ For instruments corresponding to already implemented instrument classes, adjust 
 
 ## Global measurement settings:
 During the setup measurement settings can be changed for ONE scan.
-Using the text files in "./QCtests/general_VIs/globals/" default measurement settings which will be loaded before each measurement can be changed.
+Using the text files in "./general_VIs/globals/" default measurement settings which will be loaded before each measurement can be changed.
 However, do not alter crucial aspects of the measurement procedure during sensor QC unless approved or only if scripts are used for R&D purposes.
 When changing the default instrument, enter the name in the same way as in the list of implemented instruments above.
 
@@ -82,7 +82,11 @@ When changing the default instrument, enter the name in the same way as in the l
 *	add instrument settings in global variable "InstrControl.lvclass:InstrumentSetup.vi"
 *	add case of new instrument in "InstrControl.lvclass:InstrumentSelection.vi"
 *	add tabs in "HardwareConfiguration.vi" and case in block diagram similar to existing instruments
-*	multiple instances of the same instrument (but with different GPIB addresses obviously) can be added by just creating an additional cluster with instrument settings and add GPIB address in global "InstrControl.lvclass:InstrumentSetup.vi" + adding case in "InstrControl.lvclass:InstrumentSelection.vi"
+
+## Multiple instances of the same instrument
+*	add an additional configurations cluster with instrument settings in global "InstrControl.lvclass:InstrumentSetup.vi"
+*	add GPIB address, instrument name and type (name and address need to be unique) in the respective cluster in the same global 
+*	add the case and selector in "InstrControl.lvclass:InstrumentSelection.vi" with the instrument name and configurations tab in "HardwareConfiguration.vi"
 
 
 ## Missing LabVIEW libraries and 3rd party drivers

@@ -2,6 +2,8 @@ Default Stability measurement configurations
 ==================================
 SUPPLY%Keithley 2410
 - default supply
+DMM%Keithley 2000
+- default DMM
 VOLTAGE%-700
 - bias voltage of stability scan, TDR: -700
 INTERVAL%30
