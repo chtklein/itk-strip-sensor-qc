@@ -6,7 +6,7 @@ LCR%WayneKerr 6440B
 - default LCR meter; Only really necessary for tests without user input.
 INITIALV%0
 - initial bias voltage of CV scan, QC doc: 0
-FINALV%-500
+FINALV%-700
 - final bias voltage of CV scan, QC doc: -500
 STEPSIZE%10
 - size of voltage steps during CV scan, QC doc: 10
@@ -24,7 +24,7 @@ RAMPDOWNSTEPS%10
 - ramp down steps in Volts
 RAMPDOWNDELAY%1
 - ramp down interval in seconds
-TREADOUT%Arduino
+TREADOUT%none
 - Arduino or not? Only really necessary for tests without user input.
 VDEPLETION%-300
 - Maximum depletion voltage allowed in specs in volts
