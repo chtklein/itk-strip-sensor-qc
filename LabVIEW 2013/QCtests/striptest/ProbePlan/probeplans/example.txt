@@ -1,0 +1,13 @@
+Example probe plan
+===================
+there must be at least one region defined by the REGION=label line.
+Eg:
+REGION=Segment 1
+The REGION= declaration must come BEFORE the probe point declarations.
+
+A probe point is defined as LABEL=<some label> X=x-coord Y=y-coord
+The X and Y corrds is the probe position relative to a reference point on the sensor
+eg fiducial
+Eg:
+
+Label=Strip one X=-350 Y=20

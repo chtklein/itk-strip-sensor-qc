@@ -1,0 +1,63 @@
+ATLAS07 sensor test programme for strip test
+There must be at least one region
+Region=Segment 4
+Label=Strip 10 X=-1730 y=1610.5
+Label=Strip 11 X=-1380 y=1685
+Label=Strip 12 X=-1730 y=1759.5
+Label=Strip 13 X=-1380 y=1834
+Label=Strip 14 X=-1730 y=1908.5
+Label=Strip 638 X=-1730 y=48396.5
+Label=Strip 639 X=-1380 y=48471
+Label=Strip 640 X=-1730 y=48545.5
+Label=Strip 641 X=-1380 y=48620
+Label=Strip 1270 X=-1730 y=95480.5
+Label=Strip 1271 X=-1380 y=95555
+Label=Strip 1272 X=-1730 y=95629.5
+Label=Strip 1273 X=-1380 y=95704
+Region=Segment 3
+Label=Strip 8 X=-25620 y=1381.5
+Label=Strip 9 X=-25270 y=1456
+Label=Strip 10 X=-25620 y=1530.5
+Label=Strip 11 X=-25270 y=1605
+Label=Strip 420 X=-25620 y=32075.5
+Label=Strip 421 X=-25270 y=32150
+Label=Strip 422 X=-25620 y=32224.5
+Label=Strip 423 X=-25270 y=32299
+Label=Strip 838 X=-25620 y=63216.5
+Label=Strip 839 X=-25270 y=63291
+Label=Strip 840 X=-25620 y=63365.5
+Label=Strip 841 X=-25270 y=63440
+Label=Strip 1270 X=-25620 y=95400.5
+Label=Strip 1271 X=-25270 y=95475
+Label=Strip 1272 X=-25620 y=95549.5
+Label=Strip 1273 X=-25270 y=95624
+Region=Segment 2
+Label=Strip 10 X=-49590 y=1570.5
+Label=Strip 11 X=-49240 y=1645
+Label=Strip 12 X=-49590 y=1719.5
+Label=Strip 13 X=-49240 y=1794
+Label=Strip 420 X=-49590 y=32115.5
+Label=Strip 421 X=-49240 y=32190
+Label=Strip 422 X=-49590 y=32264.5
+Label=Strip 423 X=-49240 y=32339
+Label=Strip 840 X=-49590 y=63405.5
+Label=Strip 841 X=-49240 y=63480
+Label=Strip 842 X=-49590 y=63554.5
+Label=Strip 843 X=-49240 y=63629
+Label=Strip 1260 X=-49590 y=94695.5
+Label=Strip 1261 X=-49240 y=94770
+Label=Strip 1262 X=-49590 y=94844.5
+Label=Strip 1263 X=-49240 y=94919
+Region=Segment 1
+Label=Strip 10 X=-73500 y=1570.5
+Label=Strip 11 X=-73150 y=1645
+Label=Strip 12 X=-73500 y=1719.5
+Label=Strip 13 X=-73150 y=1794
+Label=Strip 638 X=-73500 y=48356.5
+Label=Strip 639 X=-73150 y=48431
+Label=Strip 640 X=-73500 y=48505.5
+Label=Strip 641 X=-73150 y=48580
+Label=Strip 1270 X=-73500 y=95440.5
+Label=Strip 1271 X=-73150 y=95515
+Label=Strip 1272 X=-73500 y=95589.5
+Label=Strip 1273 X=-73150 y=95664
