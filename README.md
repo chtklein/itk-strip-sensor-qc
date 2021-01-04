@@ -30,24 +30,24 @@
 *	sequential IV & CV measurement scripts as done at Carleton, can be used as templates
 
 *	implemented instruments:
-	SMU:
-	*	Keithley 2410
-	*	Keithley 6517
-	*	Keithley 487
-	*	Keithley 236/237	(untested)
-	LCR meter:
-	*	WayneKerr 6440B
-	*	WayneKerr 6425
-	*	hp 4263B
-	DMM:
-	*	Keithley 2000
-	Probestation:
-	*	Alessi REL-6100 probestation
-	*	SemiProbe probestation
-	Switching matrix/MUX:
-	*	Pickering Switching Matrix + MUX (for switching between measurement setups)
-	*	Keithley 3706A Switching system (for switching between multiple DUTs)
-	*	Pickering IVI switch PI40IV (TRIUMF setup; currently LV2019 only)
+	*	SMU:
+		*	Keithley 2410
+		*	Keithley 6517
+		*	Keithley 487
+		*	Keithley 236/237	(untested)
+	*	LCR meter:
+		*	WayneKerr 6440B
+		*	WayneKerr 6425
+		*	hp 4263B
+	*	DMM:
+		*	Keithley 2000
+	*	Probestation:
+		*	Alessi REL-6100 probestation
+		*	SemiProbe probestation
+	*	Switching matrix/MUX:
+		*	Pickering Switching Matrix + MUX (for switching between measurement setups)
+		*	Keithley 3706A Switching system (for switching between multiple DUTs)
+		*	Pickering IVI switch PI40IV (TRIUMF setup; currently LV2019 only)
 	
 
 ## How to use the QC LabVIEW scripts:
@@ -63,7 +63,12 @@ I will include versions for anything in between once there are no more major upd
 The LV scripts will automatically look up sensor information from the text file "components.csv" (example in folder ./general_VIs/database/).
 When prompted only the dbase serial number has to be entered.
 The lookup file can be generated automatically for each institute with the "inventory2CSV.py" of the ITk PD scripts.
-example: python inventory2CSV.py --project S --componentType SENSOR --currentLocation CU --property ID --outfile inventory.csv 
+
+Example: 
+```bash
+python inventory2CSV.py --project S --componentType SENSOR --currentLocation CU --property ID --outfile inventory.csv 
+```
+
 
 
 ## Local configuration:
