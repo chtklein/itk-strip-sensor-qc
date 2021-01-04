@@ -12,7 +12,7 @@ STEPSIZE%10
 - size of voltage steps during CV scan, QC doc: 10
 STEPDELAY%5
 - interval between voltage steps during CV scan in seconds, QC doc: 3x RC time of network
-ACFREQUENCY%500
+ACFREQUENCY%2500
 - default AC frequency for CV scans in Hz, TDR: 500-5000
 RCCONFIG%serial
 - RC configuration of LCR meter for CV scan, serial
@@ -24,7 +24,7 @@ RAMPDOWNSTEPS%10
 - ramp down steps in Volts
 RAMPDOWNDELAY%1
 - ramp down interval in seconds
-TREADOUT%none
+TREADOUT%Arduino
 - Arduino or not? Only really necessary for tests without user input.
 VDEPLETION%-300
 - Maximum depletion voltage allowed in specs in volts

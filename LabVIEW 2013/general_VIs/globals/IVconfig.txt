@@ -20,5 +20,5 @@ TREADOUT%Arduino
 - Arduino or not? Only really necessary for tests without user input.
 VBREAKDOWN%-500
 - Minimum breakdown voltage in volts allowed in specs
-HOLDSTEPS%3
+HOLDSTEPS%6
 -Number of hold steps at max volts; QC doc: >=3

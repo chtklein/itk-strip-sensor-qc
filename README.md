@@ -25,31 +25,45 @@
 
 *	Global measurement configurations according to ITk Technical Design Report (https://cds.cern.ch/record/2257755), QC document (https://edms.cern.ch/ui/file/2117065/2/ITk_Strip_Sensor_Quality_Control_Specification_Document_-_V3_08_04_2019.pdf), and QA document
 
-*	direct feedback whether DUT passed QC/QA criteria
+*	direct feedback whether DUT passed QC/QA criteria in local log file
 
 *	sequential IV & CV measurement scripts as done at Carleton, can be used as templates
 
 *	implemented instruments:
+	SMU:
 	*	Keithley 2410
 	*	Keithley 6517
 	*	Keithley 487
 	*	Keithley 236/237	(untested)
+	LCR meter:
 	*	WayneKerr 6440B
 	*	WayneKerr 6425
+	*	hp 4263B
+	DMM:
 	*	Keithley 2000
+	Probestation:
 	*	Alessi REL-6100 probestation
 	*	SemiProbe probestation
+	Switching matrix/MUX:
 	*	Pickering Switching Matrix + MUX (for switching between measurement setups)
 	*	Keithley 3706A Switching system (for switching between multiple DUTs)
+	*	Pickering IVI switch PI40IV (TRIUMF setup; currently LV2019 only)
 	
 
 ## How to use the QC LabVIEW scripts:
 *	just copy the repository to the machine used for sensor tests
 *	find VIs for the respective measurement in the folder "QCtests" and "QAtests"
-*	make sure there are no old VIs with the same name in memory
+*	make sure there are no old VIs with the same name in memory (i.e. close everything else in LV before opening these scripts)
 
 The LabVIEW scripts have been tested under Windows7/8/10 using LabVIEW 2013, 2014, and 2019.
-I will include versions for anything in between once striptest is fully overhauled.
+I will include versions for anything in between once there are no more major updates.
+
+
+## Sensor serial numbers:
+The LV scripts will automatically look up sensor information from the text file "components.csv" (example in folder ./general_VIs/database/).
+When prompted only the dbase serial number has to be entered.
+The lookup file can be generated automatically for each institute with the "inventory2CSV.py" of the ITk PD scripts.
+example: python inventory2CSV.py --project S --componentType SENSOR --currentLocation CU --property ID --outfile inventory.csv 
 
 
 ## Local configuration:
@@ -63,8 +77,6 @@ The file will be automatically read when running the scripts.
 *	BAKDIR - path to directory used to save screenshots and temporary data files for backup in the case of long-term measurements
 *	USER - list of users at the local institute
 *	IVRSERIES, etc. - resistors and capacitors in local setup, will be saved in corresponding measurement data headers
-
-For instruments corresponding to already implemented instrument classes, adjust "Instrument GPIB addresses" cluster in global variable "InstrControl.lvclass:InstrumentSetup.vi" accordingly. 
 
 
 ## Global measurement settings:

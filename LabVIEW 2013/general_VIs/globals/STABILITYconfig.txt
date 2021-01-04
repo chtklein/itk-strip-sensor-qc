@@ -4,12 +4,12 @@ SUPPLY%Keithley 2410
 - default supply
 DMM%Keithley 2000
 - default DMM
-VOLTAGE%-700
+VOLTAGE%-450
 - bias voltage of stability scan, TDR: -700
 INTERVAL%30
 - measurement interval during stability scan in seconds, 30
-DURATION%86400
-- stability scan duration in seconds, TDR: 86400 (24h)
+DURATION%144000
+- stability scan duration in seconds, TDR: 144,000+ (40h+)
 RAMPUPSTEPS%10
 - ramp up steps in Volts, TDR: 10
 RAMPUPDELAY%1
